@@ -1,0 +1,29 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "pulita_pL2D.moc3",
+		"Textures": [
+			"pulita_pL2D.4096/texture_00.png"
+		],
+		"Physics": "pulita_pL2D.physics3.json",
+		"DisplayInfo": "pulita_pL2D.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthForm",
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen2",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}

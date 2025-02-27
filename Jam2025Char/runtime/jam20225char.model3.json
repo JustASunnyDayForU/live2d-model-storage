@@ -1,0 +1,55 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Jam20225Char.moc3",
+		"Textures": [
+			"Jam20225Char.1024/texture_00.png"
+		],
+		"Physics": "Jam20225Char.physics3.json",
+		"DisplayInfo": "Jam20225Char.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "Idle.motion3.json"
+				}
+			],
+			"ATK": [
+				{
+					"File": "ATK.motion3.json"
+				}
+			],
+			"AFK": [
+				{
+					"File": "IdleAFK.motion3.json"
+				}
+			],
+			"Skill": [
+				{
+					"File": "SkillUsage.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamAngleX"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamAngleX2"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "Head"
+		}
+	]
+}
